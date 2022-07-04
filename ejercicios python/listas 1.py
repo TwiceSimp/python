@@ -29,6 +29,13 @@ for cadanota in lista_notas:
         menor=cadanota
 print(menor)
 
+#determinar cuantas notas sobre el promedio
+
+cont=0
+for cadanota in lista_notas:
+    if cadanota >prom:
+        cont+=1
+print("notas sobre el promedio del curso: ",cont)
 
 
 
